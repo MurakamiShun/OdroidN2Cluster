@@ -1,0 +1,5 @@
+src/build
+src/debug
+src/dist
+src/nbproject/Makefile*
+src/nbproject/private
