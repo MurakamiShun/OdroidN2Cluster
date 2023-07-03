@@ -70,7 +70,7 @@ void main(void) {
         print_0filled_3digit_at(current, 2, 5);
         
         // mW
-        uint16_t power = (uint16_t)((uint24_t)voltage * (uint24_t)current / 1000);
+        uint16_t power = (uint16_t)((uint32_t)voltage * (uint32_t)current / 1000);
         print_2digit_at(power/1000, 0, 7);
         print_at(0xA8, 2, 7);
         print_0filled_2digit_at(power/10, 3, 7);
